@@ -12,14 +12,16 @@
     font-family: 'Raleway', sans-serif;
 }
 
+body{
+    /*width: 100%;*/
+}
+
 .header{
     background: #10B582;
 }
 
 .container{
-    width: 1170px;
-    padding: 0 50px;
-    margin: 0 auto;
+    padding: 0 135px;
 }
 
 .header__top{
@@ -324,11 +326,11 @@
 .courses{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 60px;
     width: 100%;
     padding: 120px 0;
-    align-items: center;
-    justify-content: center;
 }
 
 .courses__title{
@@ -380,7 +382,7 @@
 
 .banner__image {
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 578px;
     left: 0;
     right: 0;
@@ -497,4 +499,8 @@
     font-size: 14px;
     color: #353A5A;
     cursor: pointer;
+}
+
+section header{
+    width: 100%;
 }
